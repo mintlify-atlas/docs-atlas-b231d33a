@@ -1,0 +1,107 @@
+{
+  "projectType": "saas",
+  "projectName": "CIDTES Energía y Sustentabilidad",
+  "projectDescription": "Official website of CIDTES, an interdisciplinary organization with 20+ years of experience offering training, certification, consulting, and research services in energy, sustainability, and occupational safety.",
+  "theme": "willow",
+  "primaryColor": "#1c1c1c",
+  "lightColor": null,
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Overview",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["introduction", "quickstart"]
+          },
+          {
+            "group": "About CIDTES",
+            "pages": ["about/who-we-are", "about/mission-vision", "about/commitments"]
+          }
+        ]
+      },
+      {
+        "tab": "Services",
+        "groups": [
+          {
+            "group": "Training",
+            "pages": [
+              "services/capacitacion/overview",
+              "services/capacitacion/energia",
+              "services/capacitacion/seguridad",
+              "services/capacitacion/desarrollo-personal",
+              "services/capacitacion/desarrollo-organizacional",
+              "services/capacitacion/formativo",
+              "services/capacitacion/valuacion"
+            ]
+          },
+          {
+            "group": "Certification",
+            "pages": [
+              "services/certificacion/overview",
+              "services/certificacion/conocer",
+              "services/certificacion/process"
+            ]
+          },
+          {
+            "group": "Consulting",
+            "pages": [
+              "services/consultoria/overview",
+              "services/consultoria/areas"
+            ]
+          },
+          {
+            "group": "Research & Consulting",
+            "pages": [
+              "services/investigacion/overview",
+              "services/investigacion/ods-alignment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Courses",
+        "groups": [
+          {
+            "group": "Course Catalog",
+            "pages": [
+              "courses/overview",
+              "courses/energia",
+              "courses/seguridad",
+              "courses/desarrollo-personal",
+              "courses/desarrollo-organizacional",
+              "courses/formativo"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Contact",
+        "groups": [
+          {
+            "group": "Get in Touch",
+            "pages": ["contact/contact-us", "contact/location"]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Specialized training programs in energy, safety, and organizational development",
+    "CONOCER-endorsed labor competency certification",
+    "Expert consulting in energy management and sustainable development",
+    "Applied research in renewable energy and sustainability",
+    "Comprehensive course catalog with 6 specialized categories",
+    "20+ years of experience with 40,000+ trained professionals",
+    "Strategic alliances with national and international institutions"
+  ],
+  "publicApiSurface": [
+    "GET / — Home page with company overview and service areas",
+    "GET /capacitacion — Training methodology and course categories",
+    "GET /certificacion — Certification process and CONOCER standards",
+    "GET /consultoria — Consulting areas (energy, climate change, sustainability)",
+    "GET /investigacion-consultoria — Research services and ODS alignment",
+    "GET /cursos — Full course catalog by category"
+  ]
+}
